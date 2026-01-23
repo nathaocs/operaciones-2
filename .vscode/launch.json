@@ -1,0 +1,47 @@
+{
+    // Configuración de depuración para Visual Studio Code
+    // Permite ejecutar y depurar scripts de Python con prompts (input)
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Archivo actual",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: index.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/index.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: README.md (calculadora)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/README.md",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: AREATT (Área de Triángulo)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/OPERACIONES/AREATT.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Resta",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/OPERACIONES/Resta.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
