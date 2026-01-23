@@ -1,0 +1,10 @@
+{
+    // Extensiones recomendadas para este proyecto
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "github.copilot",
+        "github.copilot-chat"
+    ]
+}

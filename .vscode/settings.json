@@ -1,0 +1,31 @@
+{
+    // Configuración de Python
+    "python.defaultInterpreterPath": "python3",
+    "python.terminal.activateEnvironment": true,
+    
+    // Habilitar el terminal integrado para prompts
+    "python.terminal.executeInFileDir": true,
+    
+    // Configuración del editor
+    "editor.formatOnSave": true,
+    "editor.rulers": [80, 120],
+    
+    // Configuración de archivos
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.encoding": "utf8",
+    
+    // Terminal integrado
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    
+    // Python linting
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": false,
+    
+    // Mostrar salida completa
+    "code-runner.runInTerminal": true,
+    "code-runner.preserveFocus": false,
+    "code-runner.clearPreviousOutput": true
+}
